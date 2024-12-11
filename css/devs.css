@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    background-color: #2A1F15;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    font-size: 1.6rem;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-right: 10px;
+}
+
+nav ul li {
+    display: flex;
+    padding: 20px;
+}
+
+.brasil{
+    animation: zoom 10s linear 2s infinite;
+}
+
+.brasil:hover {
+    transform: scale(110%)
+}
+
+.eua{
+    animation: zoom 10s linear 2s infinite;
+}
+
+.eua:hover {
+    transform: scale(110%)
+}
+
+.logo{
+    width: 70px;
+    height: 60px;
+    margin: 30px;
+}
+
+body{
+    background-color: #F4E9D9;
+}
+
+.javatux{
+    width: 61%;
+    display: flex;
+    justify-content: end;
+}
+footer{
+    color: antiquewhite;
+    background-color: #2A1F15;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-block: 20px;
+    gap: 50dvh;
+}
+.nomes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100dvh;
+    gap: 50px;
+    font-size: 2rem;
+}
+
+.Beatriz {
+    border: solid black;
+    border-radius: 4px;
+    width: 400px;
+    align-items: center;
+}
+
+.Gustavo {
+    border: solid black;
+    border-radius: 4px;
+    width: 400px;
+    align-items: center;
+}
+
+.Maria {
+    border: solid black;
+    border-radius: 4px;
+    width: 400px;
+    align-items: center;
+}
+
+.Paulo {
+    border: solid black;
+    border-radius: 4px;
+    width: 400px;
+    align-items: center;
+}
+
+.Tharyne {
+    border: solid black;
+    border-radius: 4px;
+    width: 400px;
+    align-items: center;
+}

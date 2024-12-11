@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    background-color: #2A1F15;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    font-size: 1.6rem;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-right: 10px;
+}
+
+nav ul li {
+    display: flex;
+    padding: 20px;
+}
+
+.brasil{
+    animation: zoom 10s linear 2s infinite;
+}
+
+.brasil:hover {
+    transform: scale(110%)
+}
+
+.eua{
+    animation: zoom 10s linear 2s infinite;
+}
+
+.eua:hover {
+    transform: scale(110%)
+}
+
+.logo{
+    width: 70px;
+    height: 60px;
+    margin: 30px;
+}
+
+body{
+    background-color: #F4E9D9;
+}
+.saibamais{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    width: 110px;
+    height: 30px;
+    color: #2A1F15;
+    font-size: larger;
+     animation: zoom 10s linear 2s infinite;
+}
+
+.saibamais:hover {
+    transform: scale(110%)
+}
+
+.javatux{
+    width: 61%;
+    display: flex;
+    justify-content: end;
+}
+.quadro{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+   margin-left: 50px;
+  width: 1200px;
+    margin: 25px;
+   margin-bottom: 100px;
+}
+.texto{
+    gap:30px;
+flex-direction: column;
+    display: flex;
+    font-weight: 100;
+}
+.imagens{
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    gap: 20px;
+}
+.pais{
+    gap: 10px;
+    width: 80px;
+    height: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+footer{
+    color: antiquewhite;
+    background-color: #2A1F15;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-block: 20px;
+    gap: 50dvh;
+}
+.quadro-informações{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.title{
+    font-size: 2.0rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.conteudo{
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;  
+     font-style: normal;
+}

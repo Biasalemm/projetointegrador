@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    background-color: #2A1F15;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    font-size: 1.6rem;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-right: 10px;
+}
+
+nav ul li {
+    display: flex;
+    padding: 20px;
+}
+
+.brasil{
+    animation: zoom 10s linear 2s infinite;
+}
+
+.brasil:hover {
+    transform: scale(110%)
+}
+
+.eua{
+    animation: zoom 10s linear 2s infinite;
+}
+
+.eua:hover {
+    transform: scale(110%)
+}
+
+.logo{
+    width: 70px;
+    height: 60px;
+    margin: 30px;
+}
+
+body{
+    background-color: #FAF0E3;
+    
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+section img{
+    width: 50%;
+    margin-top: 10dvh;
+    margin-bottom: 20dvh;
+}
+
+footer{
+    color: antiquewhite;
+    background-color: #2A1F15;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-block: 20px;
+    gap: 50dvh;
+}
+
+.saibamais{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    width: 110px;
+    height: 30px;
+    color: #2A1F15;
+    font-size: larger;
+    animation: zoom 10s linear 2s infinite;
+}
+
+.saibamais:hover {
+    transform: scale(110%)
+}
+
+.javatux{
+    width: 59%;
+    display: flex;
+    justify-content: end;
+}
